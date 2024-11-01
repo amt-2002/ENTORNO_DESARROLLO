@@ -38,7 +38,7 @@ public class Clase3_3A {
                 ciudadMediana = ciudad3;
                 ciudadMayor = ciudad1;
             }
-        } else {<>
+        } else {
             ciudadMenor = ciudad3;
             if (ciudad1.length() <= ciudad2.length()) {
                 ciudadMediana = ciudad1;
@@ -54,6 +54,7 @@ public class Clase3_3A {
         System.out.println(ciudadMayor);
 
         scanner.close();
+
 	}
 
 }
